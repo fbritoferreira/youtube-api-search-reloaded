@@ -1,0 +1,24 @@
+{
+  "name": "youtube-api-search-reloaded",
+  "version": "1.0.0",
+  "description": "Fork of youtube-api-search with additions",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url" : "git@github.com:iTsFILIPOficial/youtube-api-search-reloaded.git"
+  },
+  "keywords": [
+    "youtube",
+    "api",
+    "search"
+  ],
+  "author": "Filipe Ferreira <admin@itsfilipoficial.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.16.1"
+  },
+  "bugs": {
+    "url": "https://github.com/iTsFILIPOficial/youtube-api-search-reloaded/issues"
+  },
+  "homepage": "https://github.com/iTsFILIPOficial/youtube-api-search-reloaded"
+}
