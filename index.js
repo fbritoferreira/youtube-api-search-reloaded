@@ -1,16 +1,19 @@
-var axios = require('axios');
+import axios from 'axios';
 
-var ROOT_URL = 'https://www.googleapis.com/youtube/v3/search';
+const ROOT_URL = 'https://www.googleapis.com/youtube/v3/search';
 
-module.exports = function (options, callback) {
-    if (!options.key) {
-        throw new Error('Youtube Search expected key, received undefined');
+
+export default function (options, callback) {
+
+    if(!options.key || options.term || options.part || options.type){
+        throw new Error('Please make sure you that the required fields are completed');
     }
-    var params = {
-        part: 'snippet',
+
+    const params = {
+        part: options.part,
         key: options.key,
         q: options.term,
-        type: 'video',
+        type: options.type,
         forContentOwner: options.forContentOwner,
         forDeveloper: options.forDeveloper,
         forMine: options.forMine,
@@ -41,14 +44,11 @@ module.exports = function (options, callback) {
 
     };
 
-
-    axios.get(ROOT_URL, {params: params})
-        .then(function (response) {
-            if (callback) {
-                callback(response.data.items);
-            }
+    axios.get(ROOT_URL, {params})
+        .then(response => {
+            callback(response.data.items);
         })
-        .catch(function (error) {
-            console.error(error);
-        });
-};
+        .catch(error => {
+            throw new Error(error);
+        })
+}
