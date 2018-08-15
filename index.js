@@ -2,10 +2,9 @@ import axios from 'axios';
 
 const ROOT_URL = 'https://www.googleapis.com/youtube/v3/search';
 
-
 export default function (options, callback) {
 
-    if(!options.key || options.term || options.part || options.type){
+    if(!options.key || !options.term || !options.part || !options.type){
         throw new Error('Please make sure you that the required fields are completed');
     }
 
