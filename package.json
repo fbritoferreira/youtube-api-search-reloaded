@@ -12,6 +12,9 @@
     "api",
     "search"
   ],
+  "scripts": {
+    "test": "echo tested"
+  },
   "author": "Filipe Ferreira <admin@itsfilipoficial.com>",
   "license": "MIT",
   "dependencies": {
