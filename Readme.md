@@ -1,4 +1,4 @@
-# Youtube seach
+# Youtube seach [![Build Status](https://travis-ci.org/iTsFILIPOficial/youtube-api-search-reloaded.svg?branch=master)](https://travis-ci.org/iTsFILIPOficial/youtube-api-search-reloaded)
 
 Based on `https://www.npmjs.com/package/youtube-api-search` added all available option in the yotube api.
 
