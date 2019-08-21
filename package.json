@@ -2,8 +2,8 @@
   "name": "youtube-api-search-reloaded",
   "version": "2.0.0",
   "description": "Fork of youtube-api-search with additions",
-  "main": "dist/index.bundle.cjs.js",
-  "module": "dist/index.bundle.esm.js",
+  "main": "dist/bundle.cjs.js",
+  "module": "dist/bundle.esm.js",
   "sideEffects": false,
   "repository": {
     "type": "git",
