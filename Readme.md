@@ -1,4 +1,7 @@
-# Youtube seach [![Build Status](https://travis-ci.org/iTsFILIPOficial/youtube-api-search-reloaded.svg?branch=master)](https://travis-ci.org/iTsFILIPOficial/youtube-api-search-reloaded)
+# Youtube seach
+
+[![Build Status](https://travis-ci.org/iTsFILIPOficial/youtube-api-search-reloaded.svg?branch=master)](https://travis-ci.org/iTsFILIPOficial/youtube-api-search-reloaded)
+[![Coverage Status](https://coveralls.io/repos/github/iTsFILIPOficial/youtube-api-search-reloaded/badge.svg?branch=master)](https://coveralls.io/github/iTsFILIPOficial/youtube-api-search-reloaded?branch=master)
 
 Based on `https://www.npmjs.com/package/youtube-api-search` added all available option in the yotube api.
 

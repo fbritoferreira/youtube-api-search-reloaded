@@ -26,7 +26,8 @@
     "lint": "eslint '**/*.js'",
     "lint:fix": "prettier-eslint '**/*.js' --write",
     "test": "jest",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage && cat ./coverage/lcov.info | coveralls"
   },
   "dependencies": {
     "axios": "^0.19.0"
@@ -47,6 +48,7 @@
     "@babel/preset-env": "7.5.5",
     "axios-mock-adapter": "1.17.0",
     "babel-jest": "24.8.0",
+    "coveralls": "^3.0.6",
     "eslint": "6.2.1",
     "eslint-config-airbnb-base": "14.0.0",
     "eslint-plugin-import": "2.18.2",
