@@ -4,7 +4,7 @@
   "major": {
     "automerge": false
   },
-  "assignee": "itsfilipoficial",
+  "assignees": ["itsfilipoficial"],
   "automergeType": "pr-comment",
   "automergeComment": "(chore) r+"
 }
