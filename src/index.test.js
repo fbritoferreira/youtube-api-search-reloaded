@@ -12,23 +12,19 @@ describe('YoutubeSearch', () => {
   });
 
   it('Returns error if required parameters are not passed in', () => youtubeSearch({
-    key: '1',
-    term: 'test',
-    part: '1',
+    key: 'API_KEY',
+    term: 'John Cena',
+    part: 'snippet',
   }).catch((error) => {
     expect(error).toEqual(new Error('Please make sure that the required fields are inserted'));
   }));
 
   it('Return correct data when arguments are correct', () => youtubeSearch({
-    key: '1',
-    term: 'test',
-    part: '1',
+    key: 'API_KEY',
+    term: 'John Cena',
+    part: 'snippet',
     type: 'video',
   })
-    .then((data) => {
-      expect(data).toEqual(['item1', 'item2']);
-    })
-    .catch((error) => {
-      expect(error).toBeNull();
-    }));
+    .then((data) => expect(data).toEqual(['item1', 'item2']))
+    .catch((error) => expect(error).toBeNull()));
 });

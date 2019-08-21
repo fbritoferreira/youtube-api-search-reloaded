@@ -72,7 +72,7 @@ export const youtubeSearch = ({
       videoType,
     })
     .then((response) => resolve(response.data.items))
-    .catch((error) => reject(new Error(error)));
+    .catch(reject);
 });
 
 export default youtubeSearch;
