@@ -27,7 +27,8 @@
     "lint:fix": "prettier-eslint '**/*.js' --write",
     "test": "jest",
     "test:watch": "jest --watch",
-    "test:coverage": "jest --coverage && cat ./coverage/lcov.info | coveralls"
+    "test:coveralls": "jest --coverage && cat ./coverage/lcov.info | coveralls",
+    "test:coverage": "jest --coverage"
   },
   "dependencies": {
     "axios": "^0.19.0"
@@ -40,6 +41,8 @@
   "lint-staged": {
     "*.js": [
       "npm run lint:fix",
+      "npm run test",
+      "npm run test:coverage",
       "git add"
     ]
   },
