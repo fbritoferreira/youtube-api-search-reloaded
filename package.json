@@ -1,6 +1,6 @@
 {
   "name": "youtube-api-search-reloaded",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "Fork of youtube-api-search with additions",
   "main": "dist/bundle.cjs.js",
   "module": "dist/bundle.esm.js",
