@@ -30,9 +30,6 @@
     "test:coveralls": "jest --coverage && cat ./coverage/lcov.info | coveralls",
     "test:coverage": "jest --coverage"
   },
-  "dependencies": {
-    "axios": "^0.19.0"
-  },
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
@@ -45,6 +42,9 @@
       "npm run test:coverage",
       "git add"
     ]
+  },
+  "dependencies": {
+    "axios": "^0.19.0"
   },
   "devDependencies": {
     "@babel/core": "7.6.0",
@@ -64,6 +64,7 @@
     "rollup": "1.21.2",
     "rollup-plugin-commonjs": "10.1.0",
     "rollup-plugin-json": "4.0.0",
-    "rollup-plugin-node-resolve": "5.2.0"
+    "rollup-plugin-node-resolve": "5.2.0",
+    "rollup-plugin-terser": "^5.1.2"
   }
 }
