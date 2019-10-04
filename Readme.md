@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/iTsFILIPOficial/youtube-api-search-reloaded.svg?branch=master)](https://travis-ci.org/iTsFILIPOficial/youtube-api-search-reloaded)
 [![Coverage Status](https://coveralls.io/repos/github/iTsFILIPOficial/youtube-api-search-reloaded/badge.svg?branch=master)](https://coveralls.io/github/iTsFILIPOficial/youtube-api-search-reloaded?branch=master)
+[![Size](https://badgen.net/bundlephobia/min/youtube-api-search-reloaded)](https://bundlephobia.com/result?p=youtube-api-search-reloaded)
 
 Based on `https://www.npmjs.com/package/youtube-api-search` added all available option in the yotube api.
 
