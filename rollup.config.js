@@ -5,12 +5,11 @@ import { terser } from 'rollup-plugin-terser';
 
 const dist = 'dist';
 const globals = {
-  axios: 'axios',
+  url: 'url',
 };
 
 export default {
   input: 'src/index.js',
-  external: ['axios'],
   output: [
     {
       file: `${dist}/bundle.cjs.js`,
@@ -32,6 +31,7 @@ export default {
   plugins: [
     resolve({
       browser: true,
+      preferBuiltins: true,
     }),
     commonjs({
       include: 'node_modules/**',
