@@ -47,7 +47,7 @@
     "isomorphic-unfetch": "^3.0.0"
   },
   "devDependencies": {
-    "@babel/core": "7.6.2",
+    "@babel/core": "7.6.3",
     "@babel/preset-env": "7.6.2",
     "axios-mock-adapter": "1.17.0",
     "babel-jest": "24.9.0",
