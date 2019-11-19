@@ -9,3 +9,5 @@ coverage/
 .env
 .editorconfig
 .nvmrc
+.idea/
+.github/
