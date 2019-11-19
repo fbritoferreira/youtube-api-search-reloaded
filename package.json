@@ -1,5 +1,5 @@
 {
-  "name": "youtube-api-search-reloaded",
+  "name": "@itsfilipoficial/youtube-api-search-reloaded",
   "version": "3.0.1",
   "description": "Fork of youtube-api-search with additions",
   "main": "dist/bundle.cjs.js",
@@ -7,7 +7,7 @@
   "sideEffects": false,
   "repository": {
     "type": "git",
-    "url": "git@github.com:iTsFILIPOficial/youtube-api-search-reloaded.git"
+    "url": "git+ssh://git@github.com/iTsFILIPOficial/youtube-api-search-reloaded.git"
   },
   "author": "Filipe Ferreira <admin@itsfilipoficial.com>",
   "license": "MIT",
