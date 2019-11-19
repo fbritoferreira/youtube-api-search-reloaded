@@ -15,7 +15,7 @@ jobs:
       with:
         node-version: 10.16.3
     - run: npm install
-    - run: npm test:coveralls
+    - run: npm run test:coveralls
     - run: npm run build
     - name: Publish if version has been updated
       uses: pascalgn/npm-publish-action@51fdb4531e99aac1873764ef7271af448dc42ab4
