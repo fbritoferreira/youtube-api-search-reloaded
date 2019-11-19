@@ -30,7 +30,7 @@
     "lint:fix": "prettier-eslint '**/*.js' --write",
     "test": "jest",
     "test:watch": "jest --watch",
-    "test:coveralls": "jest --coverage && cat ./coverage/lcov.info | coveralls",
+    "coverage": "jest --coverage && cat ./coverage/lcov.info | coveralls",
     "test:coverage": "jest --coverage"
   },
   "husky": {
